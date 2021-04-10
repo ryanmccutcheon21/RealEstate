@@ -31,6 +31,7 @@ ${NavLink}
 font-style: italic;
 `
 
+
 const MenuBars = styled(FaBars)`
 display: none;
 
@@ -86,8 +87,7 @@ const Navbar = ({ toggle }) => {
                 </NavMenu>
                 <NavBtn>
                     <Button to='/contact' primary='true'>
-                        Contact Me
-                    </Button>
+                        Contact Me</Button>
                 </NavBtn>
             </Nav>
         </div >
